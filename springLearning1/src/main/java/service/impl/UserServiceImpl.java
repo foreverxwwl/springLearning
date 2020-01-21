@@ -1,8 +1,8 @@
 package service.impl;
 
-import DesignPattern.Factory.dao.UserDao;
-import DesignPattern.Factory.factory.BeanFactory;
-import DesignPattern.Factory.service.UserService;
+
+import dao.UserDao;
+import service.UserService;
 
 /**
  * @outhor li
@@ -10,13 +10,12 @@ import DesignPattern.Factory.service.UserService;
  */
 public class UserServiceImpl implements UserService {
 
-    UserDao userDao = (UserDao) BeanFactory.getBean("userDao");
+    private UserDao userDao;
+    public UserServiceImpl(){
+        System.out.println("对象创建了");
+    }
 
-    @Override
     public void saveUser() {
-        int i = 1;
         userDao.saveUser();
-        System.out.println(i);
-        i++;
     }
 }
