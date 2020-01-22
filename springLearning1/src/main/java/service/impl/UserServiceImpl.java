@@ -2,6 +2,7 @@ package service.impl;
 
 
 import dao.UserDao;
+import dao.daoImpl.UserDaoImpl;
 import service.UserService;
 
 /**
@@ -10,11 +11,11 @@ import service.UserService;
  */
 public class UserServiceImpl implements UserService {
 
-    private UserDao userDao;
+    private UserDao userDao = new UserDaoImpl();
     public UserServiceImpl(){
         System.out.println("对象创建了");
     }
-
+    @Override
     public void saveUser() {
         userDao.saveUser();
     }
