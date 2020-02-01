@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e1b0f4-6afe-4b1a-86cd-3606e2a4a4f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../annoIoc/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../annoIoc/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../annoIoc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../annoIoc/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../annoIoc/annoIoc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../annoIoc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springLearningDI/src/main/java/Ui/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springLearningDI/src/main/java/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springLearningDI/src/main/java/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springLearningDI/src/main/java/service/impl/UserServiceImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springLearningDI/src/main/java/service/impl/UserServiceImpl3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../annoIoc/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../annoIoc/src/main/java/dao/daoImpl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../annoIoc/src/main/java/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../annoIoc/src/main/java/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../annoIoc/src/main/java/ui/Ui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../annoIoc/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../annoIoc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../annoIoc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../annoIoc/annoIoc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../annoIoc/annoIoc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../annoIoc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../annoIoc/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springLearningDI/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springLearningDI/src/main/resources/bean.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,32 +42,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -102,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springLearningDI/src/main/java/Ui/UI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -135,8 +104,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../springLearningDI/src/main/resources/bean.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2530">
-              <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
+            <state relative-caret-position="352">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../springLearningDI/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -233,7 +220,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springLearning1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springLearning1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springLearning1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springLearning1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springLearning1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springLearning1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springLearning1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springLearning1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springLearning1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springLearning1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -361,7 +383,7 @@
       <workItem from="1580394509804" duration="315000" />
       <workItem from="1580465458373" duration="706000" />
       <workItem from="1580515361318" duration="4197000" />
-      <workItem from="1580542974917" duration="3145000" />
+      <workItem from="1580542974917" duration="4549000" />
     </task>
     <task id="LOCAL-00001" summary="spring的ioc">
       <created>1579650882442</created>
@@ -398,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580477407751</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="spring的构造函数注入">
+      <created>1580561489368</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580561489368</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30736000" />
+    <option name="totallyTimeSpent" value="32140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -448,7 +477,8 @@
     <MESSAGE value="spring的Bean对象" />
     <MESSAGE value="spring的Bean对象的作用范围" />
     <MESSAGE value="spring的依赖注入" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring的依赖注入" />
+    <MESSAGE value="spring的构造函数注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring的构造函数注入" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -512,20 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springLearningDI/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -620,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springLearningDI/src/main/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springLearningDI/src/main/java/service/impl/UserServiceImpl2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -651,6 +660,27 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springLearningDI/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springLearningDI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
