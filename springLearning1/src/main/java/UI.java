@@ -33,19 +33,19 @@ public class UI {
         ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
         //ApplicationContext ac = new FileSystemXmlApplicationContext("C:\\Users\\zhy\\Desktop\\bean.xml");
         //2.根据id获取bean对象，两种方式
-//        UserService userService = (UserService)ac.getBean("userService");
-//        UserDao userDao = ac.getBean("userDao", UserDao.class);
-//
-//        System.out.println(userService);
-//        System.out.println(userDao);
-//        userService.saveUser();
+        UserService userService = (UserService)ac.getBean("userService");
+        UserDao userDao = ac.getBean("userDao", UserDao.class);
+
+        System.out.println(userService);
+        System.out.println(userDao);
+        userService.saveUser();
 
         /**
          * -----BeanFactory创建对象的方式------
          */
-        Resource resource = new ClassPathResource("bean.xml");
-        BeanFactory factory = new XmlBeanFactory(resource);
-        UserService userService1 = (UserService) factory.getBean("userService");
-        System.out.println(userService1);
+//        Resource resource = new ClassPathResource("bean.xml");
+//        BeanFactory factory = new XmlBeanFactory(resource);
+//        UserService userService1 = (UserService) factory.getBean("userService");
+//        System.out.println(userService1);
     }
 }
