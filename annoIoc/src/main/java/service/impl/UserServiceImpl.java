@@ -83,7 +83,7 @@ import javax.annotation.Resource;
  */
 
 @Service("userService")//业务层创建对象注解
-@Scope("prototype")//定义作用范围
+//@Scope("prototype")//定义作用范围(多利) singleton单利
 public class UserServiceImpl implements UserService {
 
     //注入方法
