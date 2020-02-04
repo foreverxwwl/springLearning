@@ -15,6 +15,7 @@ import java.util.List;
 public class AccountDaoImpl implements AccountDao {
     private QueryRunner runner;
 
+    //通过构造函数注入
     public QueryRunner getRunner() {
         return runner;
     }

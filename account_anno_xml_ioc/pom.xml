@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>springLearning</groupId>
-    <artifactId>account_anno_xml_ioc</artifactId>
+    <artifactId>account_xml_ioc</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
