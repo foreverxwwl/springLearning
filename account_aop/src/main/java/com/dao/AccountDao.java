@@ -43,6 +43,4 @@ public interface AccountDao {
      * 通过姓名查询
      */
     Account findAccountByName(String name);
-
-
 }

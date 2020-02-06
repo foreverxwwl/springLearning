@@ -20,6 +20,7 @@ public class TransactionManager {
     public void beginTransaction(){
         try {
             //手动提交
+            System.out.println("开启了事务");
             connectionUtils.getThreadConnection().setAutoCommit(false);
         }catch (Exception e){
             e.printStackTrace();
@@ -30,6 +31,7 @@ public class TransactionManager {
      */
     public void commit(){
         try {
+            System.out.println("提交了事务");
             connectionUtils.getThreadConnection().commit();
         }catch (Exception e){
             e.printStackTrace();
@@ -41,6 +43,7 @@ public class TransactionManager {
      */
     public void rollback(){
         try {
+            System.out.println("回滚了事务");
             connectionUtils.getThreadConnection().rollback();
         }catch (Exception e){
             e.printStackTrace();
@@ -50,8 +53,10 @@ public class TransactionManager {
     /**
      * 释放连接
      */
+
     public void release(){
         try {
+            System.out.println("释放了事务");
             connectionUtils.getThreadConnection().close();//还回连接池中
             connectionUtils.removeConnection();
         }catch (Exception e){

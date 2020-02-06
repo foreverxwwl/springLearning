@@ -1,4 +1,4 @@
-package com.dao;
+package com.service;
 
 import com.domain.Account;
 
@@ -6,9 +6,9 @@ import java.util.List;
 
 /**
  * @outhor li
- * @create 2020-02-03 18:39
+ * @create 2020-02-03 18:37
  */
-public interface AccountDao {
+public interface AccountService {
     /**
      * 查询所有
      * @return
@@ -35,14 +35,14 @@ public interface AccountDao {
 
     /**
      * 删除
-     * @param accountId
+     * @param acccountId
      */
-    void deleteAccount(Integer accountId);
-
+    void deleteAccount(Integer acccountId);
     /**
-     * 通过姓名查询
+     * 转账
+     * @param name1
+     * @param name2
+     * @param money
      */
-    Account findAccountByName(String name);
-
-
+    void transfer(String name1, String name2, Integer money);
 }
